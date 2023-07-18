@@ -2,10 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>Interactive GitHub.io Example</title>
   </head>
   <body>
-    <h1>Hi! This is Shivani's portfolio.</h1>
-    <p>... HI!</p>
+    <h1>Interactive GitHub.io Example</h1>
+    <p id="message">Click the button to change the text!</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+      function changeText() {
+        var messageElement = document.getElementById("message");
+        messageElement.innerText = "Text changed!";
+      }
+    </script>
   </body>
 </html>
