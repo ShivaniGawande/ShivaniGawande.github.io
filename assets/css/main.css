@@ -4865,7 +4865,7 @@ a img {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: #000;
 }
 
 @media only screen and (min-width:550px) {
