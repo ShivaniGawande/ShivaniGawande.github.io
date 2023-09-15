@@ -4850,7 +4850,7 @@ a img {
 .header {
     z-index: 1;
     text-align: center;
-    color: #fff;
+    color: #000;
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
